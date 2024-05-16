@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 150px;
+}
+.inst {
+  width: 230px;
+  height: 85px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#input1 {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  background-color: rgb(228, 220, 220);
+  padding-left: 5px;
+}
+#input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  background-color: rgb(228, 220, 220);
+  padding-left: 5px;
+}
+#button {
+  width: 300px;
+  height: 40px;
+  background-color: #3897f0;
+  border-radius: 5px;
+  border: 0px solid transparent;
+}
+.form_a {
+  color: #3897f0;
+  padding-left: 50px;
+  text-decoration-line: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-line {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container-line hr {
+  width: 125px;
+  height: 0px;
+  margin-top: 0.6rem;
+}
+.container-line p {
+  color: gray;
+}
+.facebook {
+  color: #3897f0;
+  text-decoration-line: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.facebook-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.facebook-image img {
+  width: 30px;
+  height: auto;
+}
+#image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#footer {
+  margin-top: 70px;
+}
+.first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.first-div a {
+  text-decoration-line: none;
+  font-weight: 300;
+  font-size: 18px;
+  color: #3897f0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.first-div h3 {
+  color: gray;
+}
